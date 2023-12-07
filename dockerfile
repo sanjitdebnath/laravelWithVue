@@ -32,6 +32,7 @@ COPY . /app
 # Install dependencies
 RUN npm install
 
+RUN npm install -g @vue/cli
 # Expose port 8080 (default Vue.js development port)
 EXPOSE 8080
 
